@@ -34,7 +34,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f3f4f6; /* Track color */
+  background: #000000; /* Track color */
   border-radius: 6px;
 }
 

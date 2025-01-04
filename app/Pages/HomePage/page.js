@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
-import booksData from "../../components/bookData";
+import booksData from "@/app/components/bookData";
 import { BackgroundLines } from "../../components/ui/background-lines";
 
 function HomePage() {
