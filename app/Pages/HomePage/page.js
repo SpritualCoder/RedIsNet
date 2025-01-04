@@ -1,14 +1,14 @@
 "use client";
 import booksData from "@/app/lib/bookData";
 import Image from "next/image";
-<<<<<<< HEAD
 import Link from "next/link";
 import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-=======
+import Footer from "../../components/Footer";
+import Link from "next/link";
+import Image from "next/image";
 import booksData from "@/app/components/bookData";
->>>>>>> d3c35a4c59dc6dcef8a10f87ca7c25625cbeaf34
 import { BackgroundLines } from "../../components/ui/background-lines";
 
 function HomePage() {
