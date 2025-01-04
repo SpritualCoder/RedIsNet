@@ -1,10 +1,10 @@
 "use client";
-import React, { useState } from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import Link from "next/link";
+import booksData from "@/app/lib/bookData";
 import Image from "next/image";
-import booksData from "../../components/bookData";
+import Link from "next/link";
+import React, { useState } from "react";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 import { BackgroundLines } from "../../components/ui/background-lines";
 
 function HomePage() {
@@ -65,18 +65,18 @@ function HomePage() {
               key={index}
               className="flex flex-col justify-between max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-600 dark:bg-opacity-35 dark:border-gray-700 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             >
-              <Link href="#">
+              <Link href={book.link}>
                 <div className="h-48 w-full relative">
                   <Image
                     className="rounded-t-lg object-contain"
                     layout="fill"
-                    src={`/images/b${index + 1}.jpg`}
+                    src={book.image}
                     alt={`Card ${index + 1}`}
                   />
                 </div>
               </Link>
               <div className="flex flex-col flex-grow p-3">
-                <Link href="#">
+                <Link href={`/books/${book.link}`}>
                   <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                     {book.title}
                   </h5>
@@ -86,7 +86,7 @@ function HomePage() {
                 </p>
                 <div className="mt-auto flex justify-end">
                   <Link
-                    href={book.link}
+                    href={`/books/${book.link}`}
                     className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-950 border rounded-lg hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
                   >
                     Read Now
