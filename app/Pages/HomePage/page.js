@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
-import booksData from "../components/bookData";
-import { BackgroundLines } from "../components/ui/background-lines";
+import booksData from "../../components/bookData";
+import { BackgroundLines } from "../../components/ui/background-lines";
 
 function HomePage() {
   const [selectedGenre, setSelectedGenre] = useState("All");

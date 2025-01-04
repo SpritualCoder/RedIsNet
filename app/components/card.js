@@ -23,7 +23,7 @@ export function ThreeDCardDemo() {
           Interactive Book Reader
         </CardItem>
         <div className="flex justify-center items-center mt-4">
-          <Link href="/HomePage">
+          <Link href="Pages/HomePage">
             <CardItem
               translateZ={20}
               as="button"
