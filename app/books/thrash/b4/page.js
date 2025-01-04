@@ -46,7 +46,7 @@ function EPUBViewer() {
         }}
       >
         <ReactReader
-          url="/EPUB/7-habits-of-highly-effective-people.epub" // EPUB file path
+          url="/EPUB/7-habits-of-highly-effective-people.epub"
           title="7-habits-of-highly-effective-people"
           location={location}
           locationChanged={handleLocationChange}
