@@ -6,7 +6,7 @@ const booksData = [
     link: "b1",
     image: "/images/b1.jpg",
     genre: "Science",
-    epub: "/EPUB/The Vital Question - Why Is Life the Way It Is - Nick Lane.epub",
+    epub: "/EPUB/b1.epub",
   },
   {
     title:
@@ -16,7 +16,7 @@ const booksData = [
     link: "b2",
     image: "/images/b2.jpg",
     genre: "Life",
-    epub: "/EPUB/Ikigai.epub",
+    epub: "/EPUB/b2.epub",
   },
   {
     title: "How to Win Friends and Influence People by Dale Carnegie",
@@ -25,7 +25,7 @@ const booksData = [
     link: "b3",
     image: "/images/b3.jpg",
     genre: "Self-Help",
-    epub: "/EPUB/How to Win Friends and Influence People by Dale Carnegie.epub",
+    epub: "/EPUB/b3.epub",
   },
   {
     title: "7 Habits of Highly Effective People by Stephen Covey",
@@ -34,7 +34,7 @@ const booksData = [
     link: "b4",
     image: "/images/b4.jpg",
     genre: "Self-Help",
-    epub: "/EPUB/7-habits-of-highly-effective-people.epub",
+    epub: "/EPUB/b4.epub",
   },
   {
     title:
@@ -44,7 +44,7 @@ const booksData = [
     link: "b5",
     image: "/images/b5.jpg",
     genre: "Life",
-    epub: "/EPUB/Mindset Changing The Way You think To Fulfill Your Potential, Updated Edition by Carol S. Dweck.epub",
+    epub: "/EPUB/b5.epub",
   },
   {
     title:
@@ -54,7 +54,7 @@ const booksData = [
     link: "b6",
     image: "/images/b6.jpg",
     genre: "Life",
-    epub: "/EPUB/Tuesdays with Morrie an old man, a young man and lifes greatest lesson by Mitch Albom.epub",
+    epub: "/EPUB/b6.epub",
   },
 ];
 
